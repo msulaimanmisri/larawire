@@ -12,6 +12,7 @@
 
 <body>
 
+    @include('layouts.page-menu')
     @yield('content')
     @include('layouts.footer')
 
