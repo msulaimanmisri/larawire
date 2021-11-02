@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container mt-5">
-    <div class="row text-center">
+    <div class="row text-center">co
         <h1 class="display-1">{{ env('APP_NAME') }}</h1>
     </div>
 </div>
