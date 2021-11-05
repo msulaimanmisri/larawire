@@ -10,6 +10,6 @@ class IndexContact extends Component
     public function render()
     {
         $contacts = Contact::all();
-        return view('livewire.index-contact')->with('contacts', $contacts);
+        return view('livewire.index-contact', compact('contacts'));
     }
 }

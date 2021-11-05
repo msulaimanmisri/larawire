@@ -6,7 +6,8 @@
         <h1 class="display-1">{{ env('APP_NAME') }}</h1>
     </div>
 
-    <div class="row">
+    {{-- Livewire Start --}}
+    <div class="row mt-4">
         @livewire('index-contact')
     </div>
 </div>
