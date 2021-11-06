@@ -10,4 +10,9 @@ class PageController extends Controller
     {
         return view('page.index');
     }
+
+    public function user()
+    {
+        return view('page.user');
+    }
 }
